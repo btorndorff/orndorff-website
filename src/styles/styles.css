@@ -1,7 +1,72 @@
 /* General */
-/* .container {
-    margin-top: 350px;
-} */
+.container {
+    /* margin-top: 350px; */
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* Home */
+
+.highlight-1 {
+    height: 100vh;
+    background: url('./hotel.jpeg') rgba(32, 35, 39, 0.25);
+
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    transform: scale(1);
+    transition: transform 800ms ease 0ms, opacity 0s ease;
+}
+
+.highlight-1:hover {
+    transform: scale(1.03);
+    /* Adjust the scale factor as needed */
+}
+
+.highlight-2 {
+    height: 100vh;
+    background: url('./irene.png') rgba(32, 35, 39, 0.25);
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    transform: scale(1);
+    transition: transform 800ms ease 0ms, opacity 0s ease;
+}
+
+.highlight-2:hover {
+    transform: scale(1.03);
+    /* Adjust the scale factor as needed */
+}
+
+.highlight-info {
+    width: 90%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    color: white;
+    /* align-items: center; */
+}
+
+h2,
+h3 {
+    margin: 0;
+}
 
 /* navbar */
 .background {
@@ -11,7 +76,7 @@
     min-height: 380px;
 
     /* Center and scale the image nicely */
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 
