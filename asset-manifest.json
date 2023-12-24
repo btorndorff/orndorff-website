@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/orndorff-website/static/css/main.b2ab055e.css",
-    "main.js": "/orndorff-website/static/js/main.e70dd4ad.js",
-    "static/js/787.6a9706ca.chunk.js": "/orndorff-website/static/js/787.6a9706ca.chunk.js",
-    "static/media/navy.jpg": "/orndorff-website/static/media/navy.bf2f6f0fbd5416b7bc26.jpg",
-    "static/media/penn.jpg": "/orndorff-website/static/media/penn.6d095d4213bb4c56ebd0.jpg",
-    "static/media/header.jpg": "/orndorff-website/static/media/header.e4257b6b075f296630fd.jpg",
-    "static/media/irene.png": "/orndorff-website/static/media/irene.119714cdd79ea6a0534f.png",
-    "static/media/bridge.png": "/orndorff-website/static/media/bridge.76ab55c8b20f80f54030.png",
-    "static/media/mendad.JPG": "/orndorff-website/static/media/mendad.8c7b14b8f37cffa1471e.JPG",
-    "static/media/modern.JPG": "/orndorff-website/static/media/modern.1b089ca2b6362a680755.JPG",
-    "static/media/irene_full.jpg": "/orndorff-website/static/media/irene_full.5373f743cdc6860a0c08.jpg",
-    "static/media/irene_group.jpg": "/orndorff-website/static/media/irene_group.9d19efeae5e7c099bada.jpg",
-    "static/media/hotel.jpeg": "/orndorff-website/static/media/hotel.bf23cbc6fb08986fc0b4.jpeg",
-    "static/media/Alzina.jpg": "/orndorff-website/static/media/Alzina.5165f05409547d088088.jpg",
-    "index.html": "/orndorff-website/index.html",
-    "main.b2ab055e.css.map": "/orndorff-website/static/css/main.b2ab055e.css.map",
-    "main.e70dd4ad.js.map": "/orndorff-website/static/js/main.e70dd4ad.js.map",
-    "787.6a9706ca.chunk.js.map": "/orndorff-website/static/js/787.6a9706ca.chunk.js.map"
+    "main.css": "/static/css/main.19f9a0ce.css",
+    "main.js": "/static/js/main.c623a28a.js",
+    "static/js/787.6a9706ca.chunk.js": "/static/js/787.6a9706ca.chunk.js",
+    "static/media/navy.jpg": "/static/media/navy.bf2f6f0fbd5416b7bc26.jpg",
+    "static/media/penn.jpg": "/static/media/penn.6d095d4213bb4c56ebd0.jpg",
+    "static/media/header.jpg": "/static/media/header.e4257b6b075f296630fd.jpg",
+    "static/media/irene.png": "/static/media/irene.119714cdd79ea6a0534f.png",
+    "static/media/bridge.png": "/static/media/bridge.76ab55c8b20f80f54030.png",
+    "static/media/mendad.JPG": "/static/media/mendad.8c7b14b8f37cffa1471e.JPG",
+    "static/media/modern.JPG": "/static/media/modern.1b089ca2b6362a680755.JPG",
+    "static/media/irene_full.jpg": "/static/media/irene_full.5373f743cdc6860a0c08.jpg",
+    "static/media/irene_group.jpg": "/static/media/irene_group.9d19efeae5e7c099bada.jpg",
+    "static/media/hotel.jpeg": "/static/media/hotel.bf23cbc6fb08986fc0b4.jpeg",
+    "static/media/Alzina.jpg": "/static/media/Alzina.5165f05409547d088088.jpg",
+    "index.html": "/index.html",
+    "main.19f9a0ce.css.map": "/static/css/main.19f9a0ce.css.map",
+    "main.c623a28a.js.map": "/static/js/main.c623a28a.js.map",
+    "787.6a9706ca.chunk.js.map": "/static/js/787.6a9706ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2ab055e.css",
-    "static/js/main.e70dd4ad.js"
+    "static/css/main.19f9a0ce.css",
+    "static/js/main.c623a28a.js"
   ]
 }
