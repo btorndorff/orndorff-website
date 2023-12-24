@@ -11,7 +11,7 @@ const Navbar = ({ selectedTab, setSelectedTab }) => {
   return (
     <div className='background'>
       <div className="nav-container">
-        <Link to="/"> <h1 className="nav-title">ORNDORFF</h1></Link>
+        <Link to="/" onClick={() => setSelectedTab("home")}> <h1 className="nav-title">ORNDORFF</h1></Link>
 
         <nav>
           <ul>
