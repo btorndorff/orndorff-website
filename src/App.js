@@ -4,6 +4,9 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar.jsx"
 import Home from "./screens/Home.jsx"
+import Writings from "./screens/Writings.jsx"
+import Photos from "./screens/Photos.jsx"
+import About from "./screens/About.jsx"
 
 function DesktopMessage() {
   return <p>Please use this site on desktop!</p>;
@@ -50,21 +53,19 @@ function App() {
         {isMobileView ? (
           <>
             <Route path="/" element={<DesktopMessage />} />
-            <Route path="/addi-website" element={<DesktopMessage />} />
+            <Route path="/orndorff-website" element={<DesktopMessage />} />
             <Route path="" element={<DesktopMessage />} />
           </>
         ) : (
           <>
-            <Route path="/" element={<Home />} />
-            <Route path="/orndorff-website" element={<Home />} />
-            <Route path="" element={<Home />} />
+            <Route path="/" element={<Home setSelectedTab={changeSelectedTab} />} />
+            <Route path="/orndorff-website" element={<Home setSelectedTab={changeSelectedTab} />} />
+            <Route path="" element={<Home setSelectedTab={changeSelectedTab} />} />
           </>
         )}
-        {/* <Route path="/photo-video" element={<PhotoVideo />} />
-        <Route path="/illustrations" element={<Illustrations />} />
-        <Route path="/pastry" element={<Pastry />} />
-        <Route path="/writing" element={<Writing />} />
-        <Route path="/about" element={<About />} /> */}
+        <Route path="/writings" element={<Writings />} />
+        <Route path="/photos" element={<Photos />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </>
   );
