@@ -1,6 +1,23 @@
 .App {
   text-align: center;
+  font-family: "Europa Regular";
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  overflow: hidden;
 }
+
+/* .background {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: rgba(32, 35, 39, 0.25);
+} */
 
 .App-logo {
   height: 40vmin;
@@ -32,6 +49,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
