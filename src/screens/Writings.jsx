@@ -48,7 +48,8 @@ const writingData = [
             "A brief history on the texas Orndorffs",
         image:
             `${hotel}`,
-        link: "https://drive.google.com/file/d/1AOWJfZj1d7eQRI2I-Nz28T2Du_InqZbA/view?usp=drive_link",
+
+        link: "https://drive.google.com/file/d/1XEa_ddRw_fbSEX5gv3pB0mBCS7lt0EyQ/view?usp=drive_link",
         position: "bottom"
     },
     {
@@ -57,7 +58,7 @@ const writingData = [
             "Orndorff involvment in the battle of Antietam and the civil war",
         image:
             `${bridge}`,
-        link: "https://drive.google.com/file/d/1aPVM_mRr4qCSuWi_LHOUbeuV6xb2K3ns/view?usp=drive_link",
+        link: "https://drive.google.com/file/d/1PTe_h_TnkscM6A8DdhMu9P3QXlQPXBT6/view?usp=drive_link",
         position: "bottom"
     },
 ];
